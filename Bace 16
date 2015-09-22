@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Database of Siren project|Content</title>
+    <link href="modern-responsive.css" rel="stylesheet">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="fonts/Raleway_Thin/stylesheet.css" rel="stylesheet">
+    <style type="text/css">
+        @font-face {
+            font-family: "monaco";
+            src: url("MONACO.ttf") format("truetype");
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        .codeOfDNA {
+            font-family: monaco;
+            margin-right: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-default top navbar-fixed-top nav-config" role="navigation">
+        <div class="navbar-header nav-left">
+
+            <center><a class="navbar-brand nav-left" href="#">BNU-CHINA</a></center>
+        </div>
+
+        <div class="collapse navbar-collapse nav-right" id="bs-example-navbar-collapse-1">
+            <center>
+                <ul class="nav navbar-nav">
+                    <li class="nav-box li-home">
+                        <a href="http://2015.igem.org/Team:BNU-CHINA/Achievements#parts">Toxic</a>
+                    </li>
+                    <li class="nav-box li-project">
+                        <a href="http://2015.igem.org/Team:BNU-CHINA/Achievements#parts">Attractant</a>
+                    </li>
+                    <li class="nav-box li-modeling">
+                        <a href="http://2015.igem.org/Team:BNU-CHINA/Achievements#parts">Pests</a>
+                    </li>
+                    <li class="nav-box li-policy">
+                        <a href="http://2015.igem.org/Team:BNU-CHINA/Achievements#parts">Share</a>
+                    </li>
+                    <li class="nav-box li-safety">
+                        <a href="http://2015.igem.org/Team:BNU-CHINA">About</a>
+                    </li>
+                    <li>
+                        <img src="pic/logo.png"></li>
+                </ul>
+            </center>
+        </div>
+
+    </nav>
+    <div class="container-fluid">
+        <div class="row row-margin">
+            <div class="col-md-12">
+                <div class="page-header">
+                    <h1>
+                    Bace16 <small>Bacillus sp. B16
+</small>
+				</h1>
+                </div>
+                <h3>Introduction</h3>
+                <p>A serine protease bace16 was first reported as a pathogenic factor against nematodes, whose accession number is AY708655. It was identified by methods such as ammonium sulfate precipitation<sup><b><a href="#ref-1">[1]</a></b></sup>. In vitro assay demonstrated that the recombinant protease Bace16 expressed in Escherichia coli presented a nematotoxic activity, and it has been verified by experiments that Bace16 has the ability to degrade a nematode cuticle, leading to the nematode’s death<sup><b><a href="#ref-1">[2]</a></b></sup>. Bace16 could be considered as a core component to kill the nematode.
+                </p>
+                <hr/>
+                <h3>Structure</h3>
+                <p>The molecular mass of a mature Bace16 protein is about 28kDa. And the protein has 275 residues, with a catalytic triad center containing His, Asp, and Ser residues and two calcium binding sites for stabilizing the three-dimensional structure. Characterization of the purified protease revealed the optimum activity of Bace16 is at pH10, 50℃. The deduced protein also contains a presequence signal peptide of 30 amino acids and a propeptide of 77 amino acids. The presequence signal peptide directs the secretion of subtilisin from the interior of cells, while the propeptide functions as a chaperon to facilitate the folding process of the active protease<sup><b><a href="#ref-1">[3]</a></b></sup>. </p>
+                <hr/>
+                <h3>Function</h3>
+                <p>According to relevant research, Bace16 is the key reason for the high infection toxicity of Bacillus nematocida to Panagrellus redivivus and Bursaphelenchus xylophilus. Bioassay with purified Bace16 has showed that 90% of the nematodes could be killed within 24 h at the concentration of 1.79 μg/ml; after 48 h, all of the tested nematodes were almost killed and degraded<sup><b><a href="#ref-1">[4]</a></b></sup>. Researchers found that recombinant protease rm-Bace16(whose molecular weight is 34kDa) expressed in Escherichia coli also presented a nematotoxic activity. And both Bace16 and rm-Bace16 could degrade a broad range of substrates including casein, denatured collagen, and nematode cuticle.</p>
+                <hr/>
+                <h3>Design</h3>
+                <p>The DNA sequence of bace16 precursor is from NCBI(GenBank: AY708655.1), taking the fold and secretion of Bace16 into consideration, the presequence signal peptide of 30 amino acids and propeptide of 77 amino acids are retained before the mature peptide. And in order to produce this toxin, a pBAD promoter(BBa_K206000), which is said to be suitable for toxic protein expression is add upstream the functional gene.In order to change the promoter and RBS to control the expression rate of Bace16, a XhoI restriction site is added between RBS and the start codon. bace16-pSB1C3 plasmid is transformed into <em>E. coli</em> strain BW25113 to express and purify Bace16 protein. Then nematocidal activity test is conducted. </p>
+                <hr/>
+                <h3>2D Structure</h3>
+                <p>Temporarily Not Found</p>
+                <hr/>
+                <h3>3D Conformer</h3>
+                <p>Temporarily Not Found</p>
+                <hr/>
+                
+                <h3>Parts</h3>
+                <p><a href="http://parts.igem.org/wiki/index.php?title=Part:BBa_K1660000">Our Parts: BBa_K1660000</a></p>
+            <ul><li>Name: K206000 (pBAD promoter) + B0034 + bace16</li>
+                <li>Description: Encodes a serine protease in <em>Bacillus nematocida</em> target essential intestinal proteins and kill nematode under the control of pBAD promoter.</li>
+            <li>Length: 1305</li></ul>
+                <p><a href="http://parts.igem.org/wiki/index.php?title=Part:BBa_K1660008">Our Parts: BBa_K1660008</a></p>
+            <ul><li>Name: J23100 + bace16</li>
+                <li>Description: Encodes a serine protease in <em>Bacillus nematocida</em> target essential intestinal proteins and kill nematode with a constitutive promoter.</li>
+            <li>Length: 1210</li></ul>
+                <hr/>
+                <h3>Reference</h3>
+                <ul>
+                     <li id="ref-1">[1] Huang X W, Niu Q H, Zhou W, et al. Bacillus nematocida sp. nov., a novel bacterial strain with nematotoxic activity isolated from soil in Yunnan, China[J]. Systematic and applied microbiology, 2005, 28(4): 323-327.</li>
+            <li>[2] Niu Q, Huang X, Zhang L, et al. Functional identification of the gene bace16 from nematophagous bacterium Bacillus nematocida[J]. Applied microbiology and biotechnology, 2007, 75(1): 141-148.</li>
+            <li>[3] Day R M, Thalhauser C J, Sudmeier J L, et al. Tautomerism, acid‐base equilibria, and H‐bonding of the six histidines in subtilisin BPN′ by NMR[J]. Protein Science, 2003, 12(4): 794-810.
+            </li>
+            <li>[4] Qiuhong N, Xiaowei H, Baoyu T, et al. Bacillus sp. B16 kills nematodes with a serine protease identified as a pathogenic factor[J]. Applied microbiology and biotechnology, 2006, 69(6): 722-730.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+
+    </footer>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
